@@ -343,6 +343,10 @@ margin: auto;
 
 .footer__column-links{
   color:white;
+  margin-bottom:16px;
+  line-height:30px;
+  font-size:18px;
+  list-style-type:none;
 }
 
 
@@ -367,14 +371,6 @@ margin: auto;
   font-size:18px;
  
 }
-
-.footer__column-links {
-  margin-bottom:16px;
-  line-height:30px;
-  font-size:18px;
-  list-style-type:none;
-}
-
 
 
 
