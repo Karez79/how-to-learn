@@ -95,7 +95,7 @@ flex-direction: row;
 justify-content: space-between;
 margin-top:0;
 position: relative;
-margin: auto ;
+margin: auto;
  
 }
 
@@ -191,7 +191,7 @@ margin: auto ;
 
 .feinman {
   margin-bottom:50px;
-  padding-top:80px; 
+  padding-top:80px;
   background-size: 867px 637px;
   height:790px;
   background-image: url(/images/feynman.png);
@@ -332,7 +332,7 @@ margin: auto ;
 
 .footer__social-icons {
   width:16px;
-  height:16px; 
+  height:16px;
   background-size: contain;
   position: relative;
 }
@@ -365,7 +365,7 @@ margin: auto ;
   margin-top:0;
   line-height:30px;
   font-size:18px;
-  font-weight: bold;
+ 
 }
 
 .footer__column-links {
