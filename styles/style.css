@@ -314,11 +314,10 @@ left:0;
 
 
 .footer__social-icons {
-  position: relative;
+  position:relative;
   width:16px;
-  height:16px; 
+  height:16px;
   background-size: contain;
-  
 }
 
 .footer__column_content-social {
@@ -332,7 +331,7 @@ left:0;
 }
 
 .footer__column-heading {
-  font-weight:bold;
+ 
   margin-bottom:20px;
   line-height:30px;
   font-weight: bold;
