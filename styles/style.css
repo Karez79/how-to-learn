@@ -24,7 +24,7 @@ background-color:#f2f2f2;
 
 }
 
-.logo_place__header{
+.logo_place_header{
   position:absolute;
   top:30px;
   left:64px;
@@ -58,7 +58,8 @@ background-color:#f2f2f2;
   font-style: normal;
   font-weight: normal;
   z-index: 3;
-  
+ margin: 0;
+
 }
 
 .header__link{
@@ -118,11 +119,13 @@ z-index: 0;
   font-style: normal;
   max-width: 175px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+
 }
 
 .two-columns__span-accent {
@@ -134,40 +137,50 @@ z-index: 0;
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   padding-top: 0;
-  margin-top: 0;
+  
+  
   
 }
 
+.two-columns__paragraph:last-child {
+  margin-top: 30px;
 
+}
 
 
 .digits{
  position: relative;
  padding-top: 100px;
+ margin-bottom: 100px;
 }
 
 .section-title {
+ 
   width: 60%;
   text-align: center;
   font-size:60px;
   font-weight: bold;
-  margin-left:auto;
-  margin-right:auto;
   font-style: 600px;
   line-height: 1.15;
+  margin: 0 auto;
+  
+ 
+ 
 }
 
 .section-subtitle {
   width: 60%;
-  padding-top:30px;
+  margin-top:30px;
   line-height: 34px;
   font-size:24px;
   text-align: center;
-  margin-left:auto;
-  margin-right:auto;
   font-style: normal;
+ margin-bottom: 0;
+ margin: 0 auto;
+ margin-top: 20px;
+
 }
 
 .table {
@@ -190,6 +203,7 @@ z-index: 0;
   font-size:24px;
   font-weight: 600px;
   margin-top: 0;
+  margin-bottom: 20px;
   
 }
 .table__text {
@@ -198,20 +212,22 @@ z-index: 0;
   line-height:1.2;
   font-size:18px;
   font-weight: normal;
+  margin-bottom: 0;
   
 
 }
 
   
 .feynman {
-margin-top:100px;
+box-sizing: border-box;
+padding-top:100px;
 min-height:890px;
 position: relative;
 background-image: url(/images/feynman.png);
 background-repeat: no-repeat;
 background-size:867px 637px;
-background-position: left;
-
+background-position: left bottom;
+background-color: #f2f2f2;
 }
 
 
@@ -231,7 +247,7 @@ background-position: left;
 .feynmann__subtitle {
   line-height:51px;
   font-size:36px;
-  margin:auto;
+  margin: 70px auto;
   text-align: center;
   font-weight: normal;
 }
@@ -258,9 +274,9 @@ background-position: left;
 
 .kaufman {
   position: relative;
-  padding-bottom:90px;
+ padding: 90px 0 90px;
   color: white;
-  background-color:#000000;
+  background-color:#1f1f1f;
   overflow:hidden;
 }
 
@@ -272,14 +288,6 @@ background-position: left;
   position: absolute;
   right: -210px;
   top:0;
-}
-
-.table__text_theme_dark{
-  text-decoration: none;
-  font-style: normal;
-   font-weight: normal;
-   color:white;
-   text-align: left;
 }
 
 
@@ -295,10 +303,10 @@ background-position: left;
  .footer {
   padding-top:60px;
   padding-bottom:40px;
-  background-color:  #000000;
+  background-color:  #1f1f1f;
   color:white;
   min-height:350px;
-
+  box-sizing: border-box;
  
 }
 .footer__columns {
@@ -306,20 +314,16 @@ background-position: left;
   width:90%;
   margin-left:auto;
   margin-right:auto;
-  position:relative;
   justify-content: space-between;
 
 }
 
 .footer__column {
-  margin-top:0;
-  margin-bottom:0;
-  margin-left:auto;
-  margin-right:auto;
- margin: 0;
- padding: 0;
- width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .logo_place_footer {
   background-image: url(/images/logo_place_footer.svg);
@@ -329,7 +333,7 @@ background-position: left;
   top:0;
  
 }
-.footer__social-icons {
+.footer__social-icon {
   position:relative;
   width:16px;
   height:16px;
@@ -337,19 +341,24 @@ background-position: left;
   padding-right: 10px;
 
 }
-.footer_column_content-social {
+.footer__column_content-social {
   margin-bottom:16px;
   flex-shrink:2;
-  margin-left:auto;
-  margin-right:auto;
+}
+.footer__column_content-copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+  
 }
 
-.footer_column_content-info {
+
+.footer__column_content-info {
   flex-shrink:1.5;
   margin-left:auto;
-  margin-right:auto;
-}
-.footer_column-heading {
+  margin-right:auto;}
+  
+
+.footer__column-heading {
  
   margin-bottom:20px;
   line-height:30px;
@@ -364,11 +373,14 @@ background-position: left;
   font-size:18px;
  padding-left: 0;
  margin-left: 0;
+ display: flex;
+ flex-direction: column;
+ text-decoration: none;
+  color:white;
 
 }
 .footer__author {
   color:white;
-  position: absolute;
   font-size:18px;
   line-height:25px;
   margin-bottom:18px;
@@ -378,15 +390,13 @@ background-position: left;
   
 }
 
-.footer__column-links a{
-text-decoration: none;
-  color:white;
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
-
-
-
-
-
 
 
 
