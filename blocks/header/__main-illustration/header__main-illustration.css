@@ -6,5 +6,6 @@
     border: 0;
     right: 0px;
     bottom: 0px;
+    object-fit: cover;
   }
   
