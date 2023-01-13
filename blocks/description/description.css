@@ -1,0 +1,6 @@
+.description {
+    margin-top: 100px;
+    display: flex;
+    place-content: center;
+    border: 0;
+  }
