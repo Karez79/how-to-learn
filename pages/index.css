@@ -70,6 +70,7 @@
 @import url(../blocks/resourses/resourses.css);
 @import url(../blocks/resourses/__logo/resourses__logo.css);
 @import url(../blocks/resourses/__logo-zone/resourses__logo-zone.css);
+@import url(../blocks/resourses/__link/resources__link.css);
 
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column/footer__column.css);
