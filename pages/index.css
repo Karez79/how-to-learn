@@ -67,10 +67,10 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
-@import url(../blocks/resourses/resourсes.css);
-@import url(../blocks/resourses/__logo/resourсes__logo.css);
-@import url(../blocks/resourses/__logo-zone/resourсes__logo-zone.css);
-@import url(../blocks/resourses/__link/resources__link.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__link/resources__link.css);
 
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column/footer__column.css);
