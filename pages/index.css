@@ -4,7 +4,7 @@
 @import url(../blocks/rotation/rotation.css);
 
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place_header/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -67,9 +67,9 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
-@import url(../blocks/resourses/resourses.css);
-@import url(../blocks/resourses/__logo/resourses__logo.css);
-@import url(../blocks/resourses/__logo-zone/resourses__logo-zone.css);
+@import url(../blocks/resourses/resourсes.css);
+@import url(../blocks/resourses/__logo/resourсes__logo.css);
+@import url(../blocks/resourses/__logo-zone/resourсes__logo-zone.css);
 @import url(../blocks/resourses/__link/resources__link.css);
 
 @import url(../blocks/footer/__author/footer__author.css);
